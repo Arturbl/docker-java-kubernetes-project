@@ -1,13 +1,13 @@
-package uk.co.danielbryant.djshopping.productcatalogue;
+package com.productcatalogue;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
+import com.productcatalogue.configuration.ProductServiceConfiguration;
+import com.productcatalogue.healthchecks.BasicHealthCheck;
+import com.productcatalogue.resources.ProductResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
-import uk.co.danielbryant.djshopping.productcatalogue.healthchecks.BasicHealthCheck;
-import uk.co.danielbryant.djshopping.productcatalogue.configuration.ProductServiceConfiguration;
-import uk.co.danielbryant.djshopping.productcatalogue.resources.ProductResource;
 
 public class ProductServiceApplication extends Application<ProductServiceConfiguration> {
     public static void main(String[] args) throws Exception {

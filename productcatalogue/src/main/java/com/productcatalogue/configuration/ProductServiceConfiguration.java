@@ -1,4 +1,4 @@
-package uk.co.danielbryant.djshopping.productcatalogue.configuration;
+package com.productcatalogue.configuration;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;

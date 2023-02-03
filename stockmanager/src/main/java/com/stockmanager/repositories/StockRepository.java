@@ -1,7 +1,7 @@
-package uk.co.danielbryant.djshopping.stockmanager.repositories;
+package com.stockmanager.repositories;
 
 import org.springframework.data.repository.CrudRepository;
-import uk.co.danielbryant.djshopping.stockmanager.model.Stock;
+import com.stockmanager.model.Stock;
 
 public interface StockRepository extends CrudRepository<Stock, String> {
 }
