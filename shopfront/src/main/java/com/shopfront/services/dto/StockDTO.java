@@ -1,4 +1,4 @@
-package uk.co.danielbryant.djshopping.shopfront.services.dto;
+package com.shopfront.services.dto;
 
 public class StockDTO {
     private String productId;

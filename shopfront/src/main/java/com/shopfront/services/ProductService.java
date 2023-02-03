@@ -1,12 +1,12 @@
-package uk.co.danielbryant.djshopping.shopfront.services;
+package com.shopfront.services;
 
+import com.shopfront.repo.ProductRepo;
+import com.shopfront.services.dto.ProductDTO;
+import com.shopfront.services.dto.StockDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import uk.co.danielbryant.djshopping.shopfront.model.Product;
-import uk.co.danielbryant.djshopping.shopfront.repo.StockRepo;
-import uk.co.danielbryant.djshopping.shopfront.repo.ProductRepo;
-import uk.co.danielbryant.djshopping.shopfront.services.dto.ProductDTO;
-import uk.co.danielbryant.djshopping.shopfront.services.dto.StockDTO;
+import com.shopfront.model.Product;
+import com.shopfront.repo.StockRepo;
 
 import java.util.Collections;
 import java.util.List;

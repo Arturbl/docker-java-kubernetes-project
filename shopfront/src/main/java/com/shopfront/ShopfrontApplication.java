@@ -1,4 +1,4 @@
-package uk.co.danielbryant.djshopping.shopfront;
+package com.shopfront;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
